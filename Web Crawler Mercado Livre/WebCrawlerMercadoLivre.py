@@ -36,7 +36,7 @@ for container in containers :
     preco = 'R$ '+preco.strip()
 
     placa['Nome'] = nome_placa
-    placa['Preço'] = preco
+    placa['Preco'] = preco
     placas.append(placa)
 
 placas_string = json.dumps(placas,ensure_ascii=False,sort_keys=True,indent=4 )

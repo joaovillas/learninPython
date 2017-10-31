@@ -1,0 +1,9 @@
+widget -> componente que compe uma interface gráfica 
+
+container - > um componente que pode ter um componente dentro dele .
+
+window -> janela que recebe outros componentes 
+
+frame - unidade basica de organizaçao de layout
+
+child-parent -> widget criado dentro de um container 
