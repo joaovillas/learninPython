@@ -2,7 +2,7 @@ from urllib.request import urlopen as uReq
 import json
 
 def pegaurl(nome):
-    urlid = 'https://br1.api.riotgames.com/lol/summoner/v3/summoners/by-name/'+nome+'?api_key=RGAPI-8c9b531b-2997-4f48-b4d7-858a832ae015'
+    urlid = 'https://br1.api.riotgames.com/lol/summoner/v3/summoners/by-name/'+nome+'?api_key=RGAPI-e1f29fe2-cffa-4244-806a-f062f2bc1df4'
     pagina = uReq(urlid)
     pagina_response = pagina.read()
     pagina.close()
@@ -13,7 +13,7 @@ def pegaurl(nome):
     return id
 
 def pegaelo(id):
-    urltier = 'https://br1.api.riotgames.com/lol/league/v3/positions/by-summoner/'+id+'?api_key=RGAPI-8c9b531b-2997-4f48-b4d7-858a832ae015'
+    urltier = 'https://br1.api.riotgames.com/lol/league/v3/positions/by-summoner/'+id+'?api_key=RGAPI-e1f29fe2-cffa-4244-806a-f062f2bc1df4'
 
     pagina = uReq(urltier)
     pagina_response = pagina.read()
