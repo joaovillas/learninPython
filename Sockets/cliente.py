@@ -13,7 +13,7 @@ from socket import *
 #IP ou domínio (ola.python.net)
 
 serverhost = 'localhost'
-port = 5001
+port = 50007
 
 #mensagem a ser mandada codificada em bytes
 

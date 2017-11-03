@@ -18,6 +18,7 @@ se usar o 'locahost' como servidor .
 
 from socket import *
 import time
+
 #cria o nome do host
 meuHost = ''
 
